@@ -30,5 +30,29 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+    
+    <key>LSBackgroundOnly</key>
+    <true/>
+    
+    
+    <key>NSServices</key>
+    <array>
+        <dict>
+            <key>NSMenuItem</key>
+            <dict>
+                <key>default</key>
+                <string>Unpremultiply</string>
+            </dict>
+            <key>NSMessage</key>
+            <string>unpremultiply</string>
+            <key>NSPortName</key>
+            <string>Unpremultiply</string>
+            <key>NSSendFileTypes</key>
+            <array>
+                <string>public.png</string>
+            </array>
+        </dict>
+    </array>
+    
 </dict>
 </plist>

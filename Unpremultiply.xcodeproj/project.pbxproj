@@ -10,9 +10,9 @@
 		7D02454815D91E160006A5A6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D02454715D91E160006A5A6 /* Cocoa.framework */; };
 		7D02455215D91E160006A5A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D02455015D91E160006A5A6 /* InfoPlist.strings */; };
 		7D02455415D91E160006A5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D02455315D91E160006A5A6 /* main.m */; };
-		7D02455815D91E160006A5A6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D02455615D91E160006A5A6 /* Credits.rtf */; };
 		7D02455B15D91E160006A5A6 /* UPMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D02455A15D91E160006A5A6 /* UPMAppDelegate.m */; };
 		7D02455E15D91E160006A5A6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D02455C15D91E160006A5A6 /* MainMenu.xib */; };
+		7D02456915D94ECB0006A5A6 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D02456815D94ECB0006A5A6 /* ReadMe.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +25,10 @@
 		7D02455115D91E160006A5A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D02455315D91E160006A5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D02455515D91E160006A5A6 /* Unpremultiply-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Unpremultiply-Prefix.pch"; sourceTree = "<group>"; };
-		7D02455715D91E160006A5A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		7D02455915D91E160006A5A6 /* UPMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPMAppDelegate.h; sourceTree = "<group>"; };
 		7D02455A15D91E160006A5A6 /* UPMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPMAppDelegate.m; sourceTree = "<group>"; };
 		7D02455D15D91E160006A5A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7D02456815D94ECB0006A5A6 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +46,7 @@
 		7D02453815D91E160006A5A6 = {
 			isa = PBXGroup;
 			children = (
+				7D02456815D94ECB0006A5A6 /* ReadMe.md */,
 				7D02454D15D91E160006A5A6 /* Unpremultiply */,
 				7D02454615D91E160006A5A6 /* Frameworks */,
 				7D02454415D91E160006A5A6 /* Products */,
@@ -97,7 +98,6 @@
 				7D02455015D91E160006A5A6 /* InfoPlist.strings */,
 				7D02455315D91E160006A5A6 /* main.m */,
 				7D02455515D91E160006A5A6 /* Unpremultiply-Prefix.pch */,
-				7D02455615D91E160006A5A6 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,8 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D02455215D91E160006A5A6 /* InfoPlist.strings in Resources */,
-				7D02455815D91E160006A5A6 /* Credits.rtf in Resources */,
 				7D02455E15D91E160006A5A6 /* MainMenu.xib in Resources */,
+				7D02456915D94ECB0006A5A6 /* ReadMe.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,14 +181,6 @@
 				7D02455115D91E160006A5A6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7D02455615D91E160006A5A6 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D02455715D91E160006A5A6 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		7D02455C15D91E160006A5A6 /* MainMenu.xib */ = {
