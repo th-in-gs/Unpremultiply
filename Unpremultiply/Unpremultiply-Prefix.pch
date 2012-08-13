@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Unpremultiply' target in the 'Unpremultiply' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
